@@ -37,7 +37,7 @@ function cleanPaddle(colNum) {
 var X = 1;
 var Y = 1;
 var direction = "nw";
-var leftSideOfPaddle = 11;
+var leftSideOfPaddle = 25;
 var timer = null;
 var score = 0;
 
