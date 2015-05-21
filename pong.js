@@ -35,7 +35,7 @@ function cleanPaddle(colNum) {
 	canvas.fill();
 }
 var X = 1;
-var Y = 1;
+var Y = 12;
 var direction = "nw";
 var leftSideOfPaddle = 25;
 var timer = null;
@@ -83,7 +83,7 @@ function oneStep() {
 			score = score+1;
 		}
 		if (direction="se"){
-			direction="nw";
+			direction="ne";
 			score = score+1;
 		}
 	}
