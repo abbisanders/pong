@@ -34,8 +34,8 @@ function cleanPaddle(colNum) {
 	canvas.fillStyle = 'white';
 	canvas.fill();
 }
-var X = 10;
-var Y = 10;
+var X = 2;
+var Y = 2;
 var direction = "ne";
 var leftSideOfPaddle = 11;
 var timer = null;
