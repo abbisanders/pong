@@ -77,7 +77,17 @@ function oneStep() {
 	if (X == 0 && direction == "sw") {
 		direction = "se";
 	}	
-	if (Y == 30 && (X == leftSideOfPaddle || X == leftSideOfPaddle+1)) {
+	if (Y == 30 && X == leftSideOfPaddle) {
+		if (direction=="sw"){
+			direction="nw";
+			score = score+1;
+		}
+		if (direction="se"){
+			direction="nw";
+			score = score+1;
+		}
+	}
+	if (Y == 30 && X == leftSideOfPaddle+1) {
 		if (direction=="sw"){
 			direction="ne";
 			score = score+1;
