@@ -99,8 +99,9 @@ function oneStep() {
 	}
 	if (Y == 31) {
 		clearInterval(timer);
-		window.alert("you lose");
+		window.alert("You lose!");
 		window.alert("score: "+score);
+		window.alert("Refresh to play again")
 	}
 }
 function draw1Step() {
