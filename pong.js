@@ -23,7 +23,7 @@ function paddle(colNum) {
 	var canvas = getCanvas(); 
 	canvas.beginPath();
 	canvas.rect(10*colNum, 310, 20, 10);
-	canvas.fillStyle = 'purple';
+	canvas.fillStyle = 'green';
 	canvas.fill();
 	
 }
